@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-set{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 10%;
+    left: 38%;
+
+}
+
+.box-1{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0px 50px;
+}
+.box-1 > h1{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+.box-1 > p{
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.box-2{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 98%);
+    margin: 0px 45px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+   
+}
+.pricing{
+    margin-left: 15px;
+}
+.pricing > h4{
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+.pricing > p{
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+.box-2 > a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    text-decoration: underline;
+    margin-left: auto;
+}
+.box-2 > a:hover{
+    color: #766CF1;
+    cursor: pointer;
+}
+
+.box-3{
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 20px 45px 0px;
+}
+.box-3 > button{
+    border: none;
+    font-family: inherit;
+    font-weight: 700;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 0.5rem 0.5rem hsla(244, 82%, 66%, 25%);
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+}
+.box-3 > button:hover{
+    background-color: #766CF1;
+    cursor: pointer;
+}
+
+.box-4{
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 15px 45px 20px;
+}
+.box-4 > button{
+    border: none;
+    font-family: inherit;
+    font-weight: 700;
+    background-color: white;
+    color:hsl(224, 23%, 55%);
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+}
+.box-4 > button:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+
